@@ -21,22 +21,22 @@ while True:
     More = input('Need more information? 1. Yes 2. No \n')
 
     if More == '1' and 'Yes':
-            print("You've chosen number 1")
-            print('More Information: ')
-            print('Region: ' + values['regionName'])
-            print('Zip code: ' + values['zip'])
-            print('Latitude: ' + str(values['lat']) + ' and ' 'Longitude: ' + str(values['lon']))
-            print('Organization: ' + values['org'])
-            print('Done.')
-            break
+        print("You've chosen number 1")
+        print('More Information: ')
+        print('Region: ' + values['regionName'])
+        print('Zip code: ' + values['zip'])
+        print('Latitude: ' + str(values['lat']) + ' and ' 'Longitude: ' + str(values['lon']))
+        print('Organization: ' + values['org'])
+        print('Done.')
+        break
 
     elif More == '2' and 'No':
-            print("You've chosen number 2")
-            print("Scan Complete")
-            break
+        print("You've chosen number 2")
+        print("Scan Complete")
+        break
 
     else:
-            break
+        break
 
 #Programmer: Ibitola Mayowa David
 #Apache 2.0 license
